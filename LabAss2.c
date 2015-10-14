@@ -3,6 +3,7 @@
 #include <signal.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 enum status { on, off};
 typedef enum status status;
@@ -105,7 +106,6 @@ will repeat until the program is terminated.
 
 void main(){
 
-	char mess[80];
 	int fd;
 	int numch;
 

@@ -9,6 +9,12 @@ To Build:
 To Run:
 	$ ./LabAss2
 
+To Build programs "a" or "b"
+	$ make a
+	or
+	$ make b
+
+
 Purpose:
 
 	This program is designed to fork and execute a user's program, and also monitor all of the children porcesses. Upon the user's input, of a program located in the same directory as this program, the process will create a child process and monitor the process via STOP and CONT signals in a round robin fashion. 
